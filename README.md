@@ -1,0 +1,1 @@
+inspire from [async-graphql-axum](https://github.com/async-graphql/async-graphql)

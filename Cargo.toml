@@ -1,0 +1,19 @@
+[package]
+name = "async-graphql-salvo"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+repository = "https://github.com/hnbcao/async-graphql-salvo.git"
+description = "A Async GraphQL extention for salvo"
+keywords = ["websocket", "salvo", "graphql"]
+categories = ["network-programming", "asynchronous"]
+[features]
+websocket = ["salvo/websocket"]
+[dependencies]
+bytes = "1.10.1"
+salvo = "0.84"
+futures-timer = "3.0.3"
+futures-util = "0.3.31"
+async-graphql = "7.0.17"
+thiserror = "1.0.69"
+serde_json = "1.0.145"
